@@ -79,10 +79,36 @@ main {
         box-shadow: 1px 1px 5px rgb(129, 129, 129);
       }
     }
+
+    button:hover {
+      font-family: "Poppins", serif;
+      background-color: rgb(227, 237, 245);
+      cursor: pointer;
+    }
+  }
+
+  .sticker {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    right: 2px;
+    box-shadow: 10px 450px 450px blue;
+  }
+
+  .sticker1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -40px;
+    left: -0.5px;
+    border-radius: 70%;
+    box-shadow: 20px 200px 150px rgba(0, 0, 255, 0.278);
   }
 
   .Achievement {
     table {
+
       th,
       td {
         padding: 8px 15px;
